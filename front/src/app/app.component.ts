@@ -12,8 +12,5 @@ export class AppComponent {
   title = 'front';
 
 
-public fazerLogin() {
- // this.router.navigate(['Tela-Inicial']);
-}
 
 }

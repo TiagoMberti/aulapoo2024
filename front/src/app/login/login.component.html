@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Órbita - Login</title>
+    <link rel="stylesheet" href="login.component.css">
+</head>
+<body>
+
+    <section class="hero">
+        <h2>Entre na sua conta</h2>
+        <p>Faça login para acessar sua conta e gerenciar seus serviços financeiros.</p>
+    </section>
+
+    <div class="container">
+        <form action="/login" method="post">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <form action="/home">
+                <button type="submit" class="login-btn">Entrar</button>
+            </form>
+        </form>
+        <a href="/cadastro">Não tem uma conta? Cadastre-se</a>
+    </div>
+</body>
+</html>
